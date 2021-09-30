@@ -17,7 +17,7 @@
   </p>
 </p>
 
-## About The Project
+## About SoT Reader
 
 I noticed that many people documenting the lore of Sea of Thieves were writing the text in-game by hand, I created this script to allow you to automate this by taking only simple screenshots.
 
@@ -60,7 +60,7 @@ python main.py
 The script will install all necessary modules and run the script.
 You can see the results in the console and in the `/results` folder.
 
-* If you having trouble with text detection you can try:
+* *If you having trouble with text detection you can try:*
 ```sh
 python main.py fix
 ```
