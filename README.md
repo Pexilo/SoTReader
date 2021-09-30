@@ -32,7 +32,7 @@ There is an end of execution beep once the script has finished running, this all
 ### Installation (user-friendly)
 
 1. Dowload and install [https://aka.ms/vs/16/release/vc_redist.x64.exe](https://aka.ms/vs/16/release/vc_redist.x64.exe)
-2. Download Python [https://www.python.org/downloads/release/python-397/](https://www.python.org/downloads/release/python-397/)
+2. Download Python [https://www.python.org/ftp/python/3.9.7/python-3.9.7-amd64.exe](https://www.python.org/ftp/python/3.9.7/python-3.9.7-amd64.exe)
 3. Make sure to select <strong>Add Python 3.9 to PATH</strong> then click Install Now.
 
 ![alt text](https://i.imgur.com/x3hQIqC.png)
