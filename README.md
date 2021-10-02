@@ -58,7 +58,7 @@ This script can be used easily in a shell, you don't need to use an IDE.
 python main.py
 ```
 The script will install all necessary modules and run the script.
-*If you encounter warn or errors messages, try running PowerShell in administrator mode.*
+<br />*If you encounter warn or errors messages, try running PowerShell in administrator mode.*
 
 You can see the results in the console and in the `/results` folder.
 
