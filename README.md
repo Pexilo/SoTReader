@@ -7,7 +7,7 @@
   <h3 align="center">SoT Reader</h3>
 
   <p align="center">
-	A tool for people who want to save time when writing down the lore of Sea of Thieves!<br />
+	A tool for people looking to save time when writing down the lore of Sea of Thieves!<br />
     <strong>English 🥖 Français<br />Compatible</strong></a>
     <br />
     <br />
@@ -22,8 +22,8 @@
 I noticed that many people documenting the lore of Sea of Thieves were writing the text in-game by hand, I created this script to allow you to automate this by taking only simple screenshots.
 
 Important notes:
-* The script uses the CPU to detect the text, speed may vary depending on your components.
-* Don't run the same images multiple times if you find mistakes, the results will be the same just correct them by hand.
+* The script uses the CPU to detect the text, speed may vary depending on your.
+* Don't run the same images multiple times if you find mistakes! The results will be the same, just correct them by hand.
 * What I've tested: this specific font doesn't work with the script (font used mainly on Larinna scrolls), <a href="https://i.imgur.com/hxr7BRB.jpeg">see this image</a>.
 * All lore books and dialogues should work properly. Make sure your screenshots are clean, avoid island popups or player names.
 
@@ -31,7 +31,7 @@ There is an end of execution beep once the script has finished running, this all
 
 ### Installation (user-friendly)
 
-1. Dowload and install [https://aka.ms/vs/16/release/vc_redist.x64.exe](https://aka.ms/vs/16/release/vc_redist.x64.exe)
+1. Download and install [https://aka.ms/vs/16/release/vc_redist.x64.exe](https://aka.ms/vs/16/release/vc_redist.x64.exe)
 2. Download Python [https://www.python.org/ftp/python/3.9.7/python-3.9.7-amd64.exe](https://www.python.org/ftp/python/3.9.7/python-3.9.7-amd64.exe)
 3. Make sure to select <strong>Add Python 3.9 to PATH</strong> then click Install Now.
 
@@ -49,7 +49,10 @@ There is an end of execution beep once the script has finished running, this all
 
 ## Usage
 
-This script can be used easily in a shell, you don't need to use an IDE.
+<strong>Note:</strong> The simplest way is to double click on `main.py` file. 
+However, if you have issues, use the `fix` option on the command line as shown below.
+
+This script can be used easily in a shell.
 
 1. Put the desired images in `/images` folder.
 2. Press "shift + right click" where `main.py` folder is and open <strong>PowerShell</strong>,
@@ -58,11 +61,11 @@ This script can be used easily in a shell, you don't need to use an IDE.
 python main.py
 ```
 The script will install all necessary modules and run the script.
-<br />*If you encounter warn or errors messages, try running PowerShell in administrator mode.*
+<br />*If you encounter warn or error messages, try running PowerShell in administrator mode.*
 
 You can see the results in the console and in the `/results` folder.
 
-* *If you having trouble with text detection you can try:*
+* *If you have trouble with text detection you can try:*
 ```sh
 python main.py fix
 ```
