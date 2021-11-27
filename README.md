@@ -29,7 +29,7 @@ Important notes:
 
 There is an end of execution beep once the script has finished running, this allows you to do something else.
 
-### Installation (user-friendly)
+## Installation (user-friendly)
 
 1. Download and install [https://aka.ms/vs/16/release/vc_redist.x64.exe](https://aka.ms/vs/16/release/vc_redist.x64.exe)
 2. Download Python [https://www.python.org/ftp/python/3.9.7/python-3.9.7-amd64.exe](https://www.python.org/ftp/python/3.9.7/python-3.9.7-amd64.exe)
@@ -61,7 +61,6 @@ This script can be used easily in a shell.
 python main.py
 ```
 The script will install all necessary modules and run the script.
-<br />*If you encounter warn or error messages, try running PowerShell in administrator mode.*
 
 You can see the results in the console and in the `/results` folder.
 
@@ -70,4 +69,26 @@ You can see the results in the console and in the `/results` folder.
 python main.py fix
 ```
 
-Enjoy ! :)
+***
+### First launch errors
+
+1. Open Powershell in administrator mode
+ 
+![alt text](https://i.imgur.com/sKmQ4is.png)
+
+2. Copy the directory where SoTReader is located. Simply copy the path on your explorer
+
+![alt text](https://i.imgur.com/iI00XDe.png)
+
+3. Type in Powershell (*replace it with your path copied above*)
+```sh
+cd C:\Users\Pexi\Downloads\SoTReader-1.3
+```
+
+4. Then type to launch SoTReader
+```sh
+python main.py
+```
+
+Installation should be done without errors just wait a bit!
+<br />Enjoy ! :)
